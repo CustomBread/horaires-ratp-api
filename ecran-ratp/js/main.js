@@ -4,7 +4,7 @@ $(function () {
 
   var getData = function () {
 
-    var schedules_url = 'https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/a/noisy+le+grand+(mont+d'est)/A';
+    var schedules_url = "https://api-ratp.pierre-grimaud.fr/v3/schedules/rers/a/noisy+le+grand+(mont+d'est)/A";
     var traffic_url   = 'https://api-ratp.pierre-grimaud.fr/v3/traffic/rers/a';
 
     $.when($.getJSON(schedules_url), $.getJSON(traffic_url)).done(function (schedules, traffic) {
