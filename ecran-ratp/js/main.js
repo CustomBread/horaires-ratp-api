@@ -18,11 +18,11 @@ $(function () {
 
       var data = {
         traffic     : trafficResponse.message,
-        line        : 'B',
+        line        : 'A',
         type        : 'rer',
         horaires    : scheduleResponse.schedules,
-        destination : 'Charles De Gaulle - Mitry Claye',
-        station     : 'Arcueil Cachan',
+        destination : 'Paris',
+        station     : "Noisy-le-Grand (Mont d'Est)",
         current_time: current_time
       };
 
